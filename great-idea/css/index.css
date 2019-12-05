@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5 {
 
 /* Footer */
   
-footer {
+.index-footer {
 	display: flex; 
 	align-items: center; 
 	height: 35vh; 
@@ -293,13 +293,13 @@ footer {
 	justify-content: center;
 	width: 100%; 
 	height: 20vh; 
-	border-bottom: 1px solid black; 
+	border-bottom: 2px solid black; 
 	 
 }
 
 /* Header Font Styles */
 
-.service-box h2 {
+.service-box h1 {
 	font-size: 1.75em;
 }
 
@@ -319,7 +319,7 @@ footer {
 	align-content: space-around;
 	height: 95vh; 
 	margin-top: 3vh; 
-	
+	margin-bottom: 5vh; 
 }
 
 
@@ -350,5 +350,59 @@ footer {
 	height: 4.5vh; 
 	border-radius: 6px; 
 	border: 1px solid black; 
+}
+
+/* Services Footer */
+
+/* Footer Box Styling */
+.services-footer {
+	height: 40vh; 
+	border-top: 2px solid black;
+	display: flex;  
+	justify-content: space-between;
+	padding-top: 2.5vh; 
+}
+.services-info-box {
+	width: 46%; 
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+/* Footer Font Styling */
+
+.services-info-box h2 {
+	 font-size: 1.25em;
+	 
+}
+
+.services-info-box p {
+	font-size: 1em; 
+	line-height: 1.25;
+	  
+}
+.services-info-box ul {
+	margin-left: 4%; 
+	list-style-type: disc;
 	
+	line-height: 2.25em;
+}
+
+.footer-img {
+	display: flex; 
+	width: 46%; 
+	align-items: flex-end;
+ 
+}
+.footer-img img {
+	margin-left: 10.45%; 
+	margin-bottom: 3vh; 
+}
+
+.services-copyright {
+	display: flex; 
+	justify-content: center;
+	align-items: flex-end;
+	height: 8vh;   
+
 }
