@@ -110,8 +110,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo { 
-	margin-left: 2vw; 
-	width: 200px;
+	margin-left: 1%; 
+	width: 10;
 	height: 36px; 
 }
 /* End Navigation */
@@ -125,46 +125,39 @@ h1, h2, h3, h4, h5 {
 	 margin-top: 3.7vh;  
 	 border-bottom: 2px solid black; 
 	 height: 68vh; 
-	 width: 100%;	
-	   
+	 width: 100%;	   
 }
 
 
 /* Left Image */
 .header-wrapper {
-	
 	height: 36vh;
 	width: 45%;
-	margin-top: 3vh;   
-	margin-right: 5%; 
-	
+	margin-bottom: 5vh; 
 }
 .header-wrapper h1 {
 	font-size: 5rem;
 	letter-spacing: 0.75rem;
 	text-align: center;
-	margin-left: 5%;
-	margin-bottom: 4vh; 
+	margin-left: 5%;  
+	margin-top: 5vh; 
 }
 
 
 /* Button Styles */
 .button {
-	width: 40%;
+	width: 38%;
 	height: 3.5vh;
-	margin-left: 30%; 
-	margin-bottom: 3vh; 
+	margin-left: 31%; 
 	border: 1px solid black;  
 	cursor: pointer;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.15em;
 }
-
 .button:hover {
 	background: gray; 
 	color: white; 
 }
-
 
 /* Main Content */
 
@@ -173,21 +166,18 @@ h1, h2, h3, h4, h5 {
  .top-paragraphs {   
 	 display: flex; 
 	 justify-content: space-between;
-	 align-items: center;
+	 align-items: center; 
 	 width: 100%;   
-	 
 	 height: 23vh; 
-	   
-	 
 }
 
 .top-paragraphs div {
-	 margin-top: 8vh;  
+	margin-top: 8vh;  
 	height: 23vh; 
 	width: 54%; 	 
 }
 .features {
-	margin-right: 2%; 
+	margin-right: 3%; 
 }
 
 /* Top Paragraph Font Styles */
@@ -215,13 +205,10 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 2px solid black; 
 	width: 100%; 
 	height: 24vh; 
-	
 	}
 .bottom-paragraphs div {
-	 
 	width: 32%;
-	height: 20vh; 
-	   
+	height: 20vh;    
 }
 .services {
 	margin-right: 1vw; 
@@ -247,12 +234,10 @@ h1, h2, h3, h4, h5 {
   
 footer {
 	display: flex; 
-	height: 25vh; 
+	align-items: center; 
+	height: 35vh; 
 	width: 100%;
-	padding-top: .5vh;
-	margin-bottom: 2vh; 
-	margin-top: 3vh; 
-	 	
+	padding-top: .5vh; 	
 }
 .footer-content h2 {
 	font-size: 1.5rem;
