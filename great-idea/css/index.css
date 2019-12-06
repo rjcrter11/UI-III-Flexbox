@@ -260,15 +260,14 @@ h1, h2, h3, h4, h5 {
 
 /* Service Nav Bar */
 
-.logo-nav {
+.logo-nav  {
 	display: flex; 
 	align-items: center;
- 
-
+	
 }
 
 .service-logo {
-	height: 6vh;
+	height: 4.5vh;
 	width: 100%;  
 }
 
