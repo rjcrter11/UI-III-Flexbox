@@ -80,11 +80,11 @@ h1, h2, h3, h4, h5 {
 .nav-wrapper {
 	display: flex;  
 	justify-content: center;
-	position: fixed;
+	/* position: fixed;
 	top: 0;
 	left: 0;
 	right: 0; 
-	z-index: 9999;
+	z-index: 9999; */
 	background-color: rgba(84, 84, 230, 0.808);
 	width: 100%;
 	height: 5vh;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5 {
 	 align-items: center;
 	 justify-content: space-between;
 	 border-bottom: 2px solid black; 
-	 height: 63vh; 
+	 height: 65vh; 
 	 width: 100%;	   
 }
 
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5 {
 	width: 45%;
 }
 .header-wrapper h1 {
-	font-size: 5rem;
+	font-size: 4.75rem;
 	letter-spacing: 0.75rem;
 	text-align: center;
 	margin-left: 5%;  
@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5 {
 
 /* Footer Box Styling */
 .services-footer {
-	height: 40vh; 
+	height: 44vh; 
 	border-top: 2px solid black;
 	display: flex;  
 	justify-content: space-between;
@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5 {
 	line-height: 1.25;
 	  
 }
-.services-info-box ul {
+.services-info-box ul li {
 	margin-left: 4%; 
 	list-style-type: disc;
 	line-height: 2.25em; 
@@ -392,8 +392,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .footer-img img {
-	margin-left: 10.45%; 
-	margin-bottom: 3vh; 
+	margin-left: 13%; 
+	/* margin-bottom: 3vh;  */
 }
 
 .services-copyright {
@@ -402,4 +402,66 @@ h1, h2, h3, h4, h5 {
 	align-items: flex-end;
 	height: 8vh;   
 
+}
+
+/* Service page media queries */
+
+@media all and (max-width: 600px) {
+	/* .container {
+		width: 50%; 
+		margin: 0 auto; 
+	} */
+	.nav-wrapper {
+		display: flex;  
+		flex-flow: row wrap; 
+		justify-content: center;
+		
+		 /* position: fixed; 
+		top: 0;
+		left: 0;
+		right: 0; 
+		z-index: 9999; */
+		background-color: rgba(84, 84, 230, 0.808);
+		width: 100%;
+		height: 50vh;
+		border: 1px solid black; 
+	}
+	.nav-wrapper a { 
+		margin: .85vh 3vw 0 1.5vw; 
+		width: 100%;
+		height: 5vh;
+		font-size: 1.15rem;
+		text-decoration: none;
+		 text-align: center;
+		 vertical-align: bottom;
+		border-bottom: 1px solid white; 
+		color: white;  
+		font-weight: bold;
+	}
+	 .services-header-wrapper{
+		text-align: center; 
+		
+	} 
+	.services-header-wrapper, .services-header-img, .service-box, .boxes, .services-grid, .services-footer, .services-info-box, .footer-img, .services-copyright, .services-header-wrapper {
+		display: block; 
+		width: 100%;  
+	}
+	.services-header-wrapper {
+		height: 50vh; 
+		margin-bottom: 15vh; 	 
+	}
+	.service-box {
+		height: 30vh; 
+	}
+	 .boxes {
+		 height: 100vh; 
+		 margin-bottom: 100vh; 
+	 }
+	 .services-grid {
+		 height: 32vh; 
+	 }
+	 .footer-img img {
+		 width: 100%; 
+		 margin: 0 auto; 
+	 }
 }
