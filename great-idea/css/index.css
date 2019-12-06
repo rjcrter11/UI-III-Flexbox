@@ -261,13 +261,8 @@ h1, h2, h3, h4, h5 {
 
  .logo-nav  {
 	align-self: center;
-	
 } 
 
-/* .service-logo {
-	height: 4.5vh;
-	width: 100%;  
-} */
 
 /* Service Header */
 
@@ -441,10 +436,8 @@ h1, h2, h3, h4, h5 {
 		text-align: center; 
 		
 	} 
-.service-logo {
-	margin-left: 30%;  
-	margin-bottom: 2vh; 
-	width: 40%
+.logo-nav {
+margin-top: 1.5vh; 
 }
 
 	.services-header-wrapper, .services-header-img, .service-box, .boxes, .services-grid, .services-footer, .services-info-box, .footer-img, .services-copyright, .services-header-wrapper {
