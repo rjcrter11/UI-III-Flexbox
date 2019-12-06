@@ -120,9 +120,9 @@ h1, h2, h3, h4, h5 {
 .top {
 	 display: flex;    
 	 align-items: center;
-	 justify-content: space-between;
+	 justify-content: space-around;
 	 border-bottom: 2px solid black; 
-	 height: 65vh; 
+	 height: 67vh; 
 	 width: 100%;	   
 }
 
@@ -131,6 +131,7 @@ h1, h2, h3, h4, h5 {
 .header-wrapper {
 	height: 36vh;
 	width: 45%;
+
 }
 .header-wrapper h1 {
 	font-size: 4.75rem;
@@ -140,8 +141,8 @@ h1, h2, h3, h4, h5 {
 	margin-right: 5%; 
 	margin-top: 5vh; 
 }
-.image1 {
-	margin-left: 5%; 
+.index-image {
+	margin-top: 3vh; 
 }
 
 
@@ -192,11 +193,9 @@ h1, h2, h3, h4, h5 {
 	line-height: 1.75rem;
 }
 
-/* Image Styles */
-
 .middle-img {
 	width: 100%; 
-	margin-bottom: 4.75vh;  
+	margin-bottom: 4.5vh; 
 }
 
 /* Bottom Paragraph Box Styles */
@@ -210,7 +209,7 @@ h1, h2, h3, h4, h5 {
 	}
 .bottom-paragraphs div {
 	width: 32%;
-	height: 20vh;    
+	height: 21vh;    
 }
 .services {
 	margin-right: 1vw; 
@@ -260,11 +259,11 @@ h1, h2, h3, h4, h5 {
 
 /* Service Nav Bar */
 
-.logo-nav  {
+ .logo-nav  {
 	display: flex; 
 	align-items: center;
 	
-}
+} 
 
 .service-logo {
 	height: 4.5vh;
@@ -282,7 +281,7 @@ h1, h2, h3, h4, h5 {
 }
 /* Header Image */
 
-.
+
 
 .services-header-img {
 	width: 100%;
@@ -398,6 +397,8 @@ h1, h2, h3, h4, h5 {
 	width: 46%; 
 }
 
+/* Copyright Styles */
+
 .services-copyright {
 	display: flex; 
 	justify-content: center;
@@ -408,10 +409,7 @@ h1, h2, h3, h4, h5 {
 /* Service page media queries */
 
  @media (max-width: 500px) { 
-	/* .container {
-		width: 50%; 
-		margin: 0 auto; 
-	} */
+	
 	.nav-wrapper {
 		display: flex;  
 		flex-flow: row wrap; 
@@ -456,12 +454,12 @@ h1, h2, h3, h4, h5 {
 	}
 	.services-header-wrapper {
 		height: 45vh; 
-		margin-bottom: 6vh; 	 
+		margin-bottom: 17vh; 	 
 		margin-top: 0.1vh; 
 		
 	}
 	.service-box {
-		height: 28vh; 
+		height: 25vh; 
 		text-align: left;
 	}
 	.service-box h1 {
@@ -484,7 +482,7 @@ h1, h2, h3, h4, h5 {
 	 }
 	 .services-copyright {
 		 height: 1vh;
-		 margin-top: 40vh; 
+		 margin-top: 35vh; 
 		 color: white; 
 	 }
 	 .services-info-img {
@@ -519,8 +517,3 @@ h1, h2, h3, h4, h5 {
 
 }
 
-@media(max-width: 500px) {
-	.container {
-		display: block; 
-	}
-}
